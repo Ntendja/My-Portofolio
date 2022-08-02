@@ -45,3 +45,25 @@ nav ul li a {
 nav ul li a:hover {
     color: red;
 }
+
+.home{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: black;
+    font-size: 100%;
+    margin-bottom: 50px;
+}
+h3{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
