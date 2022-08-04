@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* css kopfbereich */
+/* css kopfbereich start */
 .kopf{
     height: 100vh;
     width: 100%;
@@ -41,25 +41,51 @@
     color: black;
 }
 
-.kopf {
-   
-    background-image: url(imgs/hrw.png);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-
-}
 
 span{
     color: red;
 }
 
+.home{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.home img{
+    height: auto;
+    width: 430px;
+}
+
+.home-text{
+    width: 550px;
+}
+
+.home-main{
+    width: 1150px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.home-text h1{
+ color: red;
+ font-size: 40px;
+ margin-bottom: 30px;
+ letter-spacing: 2px;
+}
+
+.home-text h3{
+    color: black;
+    font-size: 20px;
+    margin-top: 15px;
+   }
 
 
 
-
-
+/* css kopfbereich ende */
 
 
 
