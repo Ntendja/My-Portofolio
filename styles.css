@@ -11,26 +11,24 @@
     width: 100%;
 }
 
-nav {
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-}
-
-.logo {
     color: black;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
-span{
+.logo ul li a:hover {
     color: red;
 }
-nav ul li {
+
+.logo ul li {
     list-style-type: none;
     display: inline-block;
     justify-content: space-between;
@@ -38,32 +36,32 @@ nav ul li {
 
 }
 
-nav ul li a {
+.logo ul li a {
     text-decoration: none;
     color: black;
 }
-nav ul li a:hover {
+
+.kopf {
+   
+    background-image: url(imgs/hrw.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+span{
     color: red;
 }
 
-.home{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-}
-h1{
-    color: black;
-    font-size: 100%;
-    margin-bottom: 50px;
-}
-h3{
-    color: black;
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-h4{
-    color: black;
-    letter-spacing: 2px;
-    font-size: 20px;
-}
+
+
+
+
+
+
+
+
+
+
