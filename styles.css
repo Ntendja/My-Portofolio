@@ -138,7 +138,7 @@ span {
     border-radius: 20px;
     background-color: rgb(218, 214, 214);
     box-sizing: border-box;
-    box-shadow: 0 30px 50px rgba(0, 0, 0, 2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 2);
 }
 
 .container h1 {
@@ -150,11 +150,9 @@ span {
 
 .skills {
     width: 90%;
-    display: flex;
-    justify-content: space-between;
-
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin-top: 20px;
 
 }
 
@@ -164,29 +162,184 @@ span {
     height: 5px;
     border: 1px solid rgb(0, 0, 0, 0.3);
     border-radius: 3px;
-    overflow: hidden;
     box-shadow: 0 0 10px #ddd
 }
 
 .bar div {
-    height: 5px;
+    height: 4px;
     float: left;
     background: red;
+    /*change color of skills bar*/
 
 }
 
-#skills-html {
+
+.bar div span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(218, 214, 214);
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+
+}
+
+/* I want to use this later
+.html{
+    background: green;
+}*/
+
+
+
+
+
+/*gives color to the circles of the percentage of skills bar */
+.html span {
+    border: 1px solid red;
+}
+
+.css span {
+    border: 1px solid red;
+}
+
+.javascript span {
+    border: 1px solid red;
+}
+
+.react span {
+    border: 1px solid red;
+}
+
+.sql span {
+    border: 1px solid red;
+}
+
+.office span {
+    border: 1px solid red;
+}
+
+.figma span {
+    border: 1px solid red;
+}
+
+
+
+/*css animation and width to skills bar*/
+.html {
     width: 90%;
-    animation: skills-html 2s;
+    animation: html 2s;
 }
 
-@keyframes skills-html {
+.css {
+    width: 70%;
+    animation: css 2s;
+}
+
+.javascript {
+    width: 40%;
+    animation: javascript 2s;
+}
+
+.react {
+    width: 50%;
+    animation: react 2s;
+}
+
+.sql {
+    width: 50%;
+    animation: sql 2s;
+}
+
+.office {
+    width: 70%;
+    animation: office 2s;
+}
+
+.figma {
+    width: 60%;
+    animation: figma 2s;
+}
+
+
+@keyframes html {
     0% {
         width: 0%;
     }
 
     100% {
         width: 90%;
+    }
+
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+
+}
+
+@keyframes sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+
+}
+
+@keyframes office {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+
+}
+
+@keyframes figma {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
     }
 
 }
