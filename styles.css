@@ -42,27 +42,25 @@
 }
 
 
-span {
-    color: red;
-}
+
 
 .home {
     width: 100%;
-    padding: 100px 0px;
+    padding: 100px 0px; /* revoir*/
 
 }
-
+/*
 .home img {
     height: auto;
     width: 430px;
 }
-
+*/
 .home-text {
     width: 550px;
 }
-
+/*
 .home-main {
-    width: 1150px;
+    width: auto ;
     max-width: 85%;
     margin: 0 auto;
     display: flex;
@@ -70,12 +68,12 @@ span {
     justify-content: space-between;
 
 }
-
+*/
 .home-text h1 {
-    color: red;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 30px;
     letter-spacing: 2px;
+
 }
 
 .home-text h3 {
@@ -83,6 +81,17 @@ span {
     font-size: 20px;
     margin-top: 15px;
 }
+
+/* css quadrat-photo*/
+
+.photo1{
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+
+
 
 
 
