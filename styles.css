@@ -41,34 +41,61 @@
     color: black;
 }
 
+.logo ul li a:hover {
+    text-decoration: underline green;
+    color: black;
+}
 
 
-
+/* css quadrat-photo start*/
 .home {
     width: 100%;
-    padding: 100px 0px; /* revoir*/
+    padding: 100px 0px;
 
 }
-/*
-.home img {
-    height: auto;
-    width: 430px;
-}
-*/
-.home-text {
-    width: 550px;
-}
-/*
-.home-main {
-    width: auto ;
-    max-width: 85%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
+.home-main{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "text foto1 foto2"
+    "text foto3 foto4";
+    grid-template-columns: 1fr 10% 25%;
 }
-*/
+
+.home-main > div:first-child{
+grid-area: text;
+height: 450px;
+width: 550px;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 10%;
+}
+
+.home-main img{
+    height: 200px;
+}
+.bild1{
+   
+    margin-bottom: -10px;
+}
+ .bild2{
+    margin-top:-20px;
+    margin-left: -30px;
+    margin-bottom: -10px;
+ }
+ .bild3{
+    margin-top: -140px;
+
+ }
+ .bild4{
+    margin-top:-160px ;
+    margin-left: -30px;
+    position: relative;
+}
+
+/* css quadrat-photo ende*/
+
 .home-text h1 {
     font-size: 50px;
     margin-bottom: 30px;
@@ -82,13 +109,13 @@
     margin-top: 15px;
 }
 
-/* css quadrat-photo*/
 
-.photo1{
-    margin-left: 0px;
-    margin-top: 0px;
-    position: absolute;
-}
+
+
+  
+  
+  
+
 
 
 
