@@ -129,6 +129,7 @@
     display: block;
     justify-content: center;
     margin-top: -100px;
+    margin-bottom: 15%;
 }
 
 
@@ -147,15 +148,16 @@
     margin-right: 20%;
     margin-bottom: 0.5%;
 }
-.signature img{
+
+.signature img {
     display: block;
-   margin: auto;
+    margin: auto;
     width: 20%;
     font-weight: 5px;
 }
 
 /* css About Me ende */
-
+/*
 .topnav {
     display: flex;
     margin: 20px 0 40px;
@@ -186,7 +188,7 @@
 
 
 /* css Skills start*/
-
+/*
 
 .container {
     width: 800px;
@@ -227,12 +229,12 @@
 .bar div {
     height: 4px;
     float: left;
-    background: red;
+    background: red;}
     /*change color of skills bar*/
 
-}
 
 
+/*
 .bar div span {
     height: 30px;
     width: 30px;
@@ -250,6 +252,7 @@
 }
 
 /*gives color to the circles of the percentage of skills bar */
+/*
 .html span {
     border: 1px solid red;
 }
@@ -277,8 +280,9 @@
 .figma span {
     border: 1px solid red;
 }
-
+*/
 /*css animation and width to skills bar*/
+/*
 .html {
     width: 90%;
     animation: html 2s;
@@ -391,8 +395,88 @@
     }
 
 }
+*/
 
-/*------------services----------------*/
+
+
+/*-------------------works-------------------*/
+
+#portofolio {
+    padding: 50px 0;
+
+}
+
+.work-list {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 200px;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(46, 45, 45, 0.6), #50d949);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.work-list div:nth-of-type(3n-1) {
+    margin-top: -10%
+}
+
+.work span {
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*------------My Blog----------------*/
 
 #services {
     padding: 30px 0;
@@ -431,7 +515,7 @@
 }
 
 .sub-title {
-    font-style: 60px;
-    font-weight: 600;
-    color: red;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
 }
