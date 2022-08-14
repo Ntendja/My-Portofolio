@@ -134,7 +134,7 @@ body{
     height: 50px;
     display: block;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: -150px;
     margin-bottom: 15%;
 }
 
@@ -288,5 +288,13 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-
+/*-----------Touch-------*/
+.touch{
+    display: flex;
+    justify-content: space-evenly;
+}
+.touch img{
+    height: 500px;
+    width: 50;
+}
 
