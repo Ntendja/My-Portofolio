@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+body{
+   width: 100%;
+   margin: 50px;
+   padding: 10px;
+}
+
 /* css kopfbereich start */
 .kopf {
     height: 100vh;
@@ -132,13 +138,12 @@
     margin-bottom: 15%;
 }
 
-
-.about h1 {
+.sub-title {
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
-
 }
+
 
 .about-text p {
     display: block;
@@ -157,251 +162,10 @@
 }
 
 /* css About Me ende */
-/*
-.topnav {
-    display: flex;
-    margin: 20px 0 40px;
-}
-
-.nav-skills {
-    margin-right: 50px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-}
-
-.nav-skills::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
-}
-
-.nav-skills.active-link::after {
-    width: 50%;
-}
-
-
-/* css Skills start*/
-/*
-
-.container {
-    width: 800px;
-    position: relative;
-    top: 50%;
-    left: 30%;
-    padding: 40px 40px 50px;
-    border-radius: 20px;
-    background-color: rgb(218, 214, 214);
-    box-sizing: border-box;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 2);
-}
-
-.container h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 40px;
-    color: red;
-}
-
-
-.skills {
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    margin-top: 20px;
-
-}
-
-.bar {
-    background: #ddd;
-    display: block;
-    height: 5px;
-    border: 1px solid rgb(0, 0, 0, 0.3);
-    border-radius: 3px;
-    box-shadow: 0 0 10px #ddd
-}
-
-.bar div {
-    height: 4px;
-    float: left;
-    background: red;}
-    /*change color of skills bar*/
-
-
-
-/*
-.bar div span {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background: rgb(218, 214, 214);
-    float: right;
-    margin-top: -15px;
-    margin-right: -20px;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: small;
-
-}
-
-/*gives color to the circles of the percentage of skills bar */
-/*
-.html span {
-    border: 1px solid red;
-}
-
-.css span {
-    border: 1px solid red;
-}
-
-.javascript span {
-    border: 1px solid red;
-}
-
-.react span {
-    border: 1px solid red;
-}
-
-.sql span {
-    border: 1px solid red;
-}
-
-.office span {
-    border: 1px solid red;
-}
-
-.figma span {
-    border: 1px solid red;
-}
-*/
-/*css animation and width to skills bar*/
-/*
-.html {
-    width: 90%;
-    animation: html 2s;
-}
-
-.css {
-    width: 70%;
-    animation: css 2s;
-}
-
-.javascript {
-    width: 40%;
-    animation: javascript 2s;
-}
-
-.react {
-    width: 50%;
-    animation: react 2s;
-}
-
-.sql {
-    width: 50%;
-    animation: sql 2s;
-}
-
-.office {
-    width: 70%;
-    animation: office 2s;
-}
-
-.figma {
-    width: 60%;
-    animation: figma 2s;
-}
-
-
-@keyframes html {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 90%;
-    }
-
-}
-
-@keyframes css {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 70%;
-    }
-
-}
-
-@keyframes javascript {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 40%;
-    }
-
-}
-
-@keyframes react {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 50%;
-    }
-
-}
-
-@keyframes sql {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 50%;
-    }
-
-}
-
-@keyframes office {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 70%;
-    }
-
-}
-
-@keyframes figma {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 60%;
-    }
-
-}
-*/
-
-
 
 /*-------------------works-------------------*/
 
-#portofolio {
+.portofolio {
     padding: 50px 0;
 
 }
@@ -477,57 +241,52 @@
 }
 
 /*------------My Blog----------------*/
-
-#services {
-    padding: 30px 0;
-}
-
-.services-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 0));
-    grid-gap: 40px;
-    margin-left: 25%;
-    margin-top: 2%;
-
-}
-
-.services-list div {
-    background: #ddd;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-}
-
-.services-list div:hover {
-    background: #ff004f;
-    transform: translateY(-10px);
-}
-
-.services-list div h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-
-}
-
 .content {
     padding: 10% 10%;
 }
 
-.sub-title {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 30px;
+
+.services {
+    padding: 30px 0;
 }
 
-/*---------Testimonials---------*/
-.testimonials p {
-    display: block;
-    text-align: center;
-    justify-content: center;
+.services-list {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
     margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 0.5%;
+    margin-top: 2%;
 }
+
+.services-list div {
+   
+    border-radius: 10px;
+}
+
+.services-list div img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 200px;
+    transition: transform 0.5s;
+}
+
+
+
+.services-list div img:hover {
+    transform: translateY(-10px);
+}
+
+.services-list div p{
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
