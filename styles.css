@@ -1,17 +1,43 @@
 * {
     font-family: "Roboto";
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
 }
 
-body{
-   width: 100%;
-   margin: 50px;
-   padding: 10px;
+body {
+    width: 100%;
+
 }
+
+/*--------header------*/
+
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.topnav-items ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.topnav-items ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 
 /* css kopfbereich start */
+
+/*
 .kopf {
     height: 100vh;
     width: 100%;
@@ -53,16 +79,17 @@ body{
     text-decoration: underline green;
     color: black;
 }
-
+*/
 
 /* css quadrat-photo start*/
-.home {
+/*
+.home- {
     width: 100%;
     padding: 100px 0px;
 
 }
 
-.home-main {
+.home-main- {
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
@@ -71,7 +98,7 @@ body{
     grid-template-columns: 1fr 10% 25%;
 }
 
-.home-main>div:first-child {
+.home-main>div:first-child- {
     grid-area: text;
     height: 450px;
     width: 550px;
@@ -80,16 +107,16 @@ body{
     margin-top: 10%;
 }
 
-.home-main img {
+.home-main img- {
     height: 200px;
 }
 
-.bild1 {
+.bild1- {
 
     margin-bottom: -10px;
 }
 
-.bild2 {
+.bild2- {
     margin-top: -20px;
     margin-left: -30px;
     margin-bottom: -10px;
@@ -100,29 +127,51 @@ body{
 
 }
 
-.bild4 {
+.bild4- {
     margin-top: -160px;
     margin-left: -30px;
     position: relative;
 }
 
 /* css quadrat-photo ende*/
-
-.home-text h1 {
+/*
+.home-text h1- {
     font-size: 50px;
     margin-bottom: 30px;
     letter-spacing: 2px;
 
 }
 
-.home-text h3 {
+.home-text h3-{
     color: black;
     font-size: 20px;
     margin-top: 15px;
 }
 
-
+*/
 /* css kopfbereich ende */
+.home-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-text {
+    display: block;
+    text-align: block;
+    align-items: center;
+}
+
+.home img {
+    width: 200px;
+}
+
+.home-bild {
+    display: inline-grid;
+ gap: 5px;
+    grid-template-columns: auto auto;
+}
+
+
 
 
 /* css About Me start */
@@ -259,11 +308,11 @@ body{
 }
 
 .services-list div {
-   
+
     border-radius: 10px;
 }
 
-.services-list div img{
+.services-list div img {
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -277,7 +326,7 @@ body{
     transform: translateY(-10px);
 }
 
-.services-list div p{
+.services-list div p {
     font-weight: 500;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -288,13 +337,14 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
 /*-----------Touch-------*/
-.touch{
+.touch {
     display: flex;
     justify-content: space-evenly;
 }
-.touch img{
+
+.touch img {
     height: 500px;
     width: 50;
 }
-
