@@ -159,6 +159,8 @@ body {
     display: block;
     text-align: block;
     align-items: center;
+    padding: 10% 0;
+    ;
 }
 
 .home img {
@@ -167,11 +169,23 @@ body {
 
 .home-bild {
     display: inline-grid;
- gap: 5px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto  auto;
+    grid-template-rows: auto  auto; 
+   
+}
+.bild3 {
+    margin-top: -50px;
 }
 
+.home-bild div:nth-child(2){
+margin-top: -10%;
+margin-left: -40px;
+}
 
+.home-bild div:nth-child(4){
+    margin-top: -40%;
+    margin-left: -40px;
+    }
 
 
 /* css About Me start */
