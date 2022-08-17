@@ -5,9 +5,9 @@
     padding: 10px;
 }
 
-body {
+.container-fluid {
     width: 100%;
-
+   
 }
 
 /*--------header------*/
@@ -23,7 +23,7 @@ body {
 .topnav-items ul li {
     list-style: none;
     display: inline-block;
-
+    text-transform: capitalize;
 }
 
 .topnav-items ul li a {
@@ -162,6 +162,9 @@ body {
     padding: 10% 0;
     ;
 }
+.home-text h1{
+    font-size: 40px;
+}
 
 .home img {
     width: 200px;
@@ -169,27 +172,48 @@ body {
 
 .home-bild {
     display: inline-grid;
-    grid-template-columns: auto  auto;
-    grid-template-rows: auto  auto; 
-   
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
 }
+
 .bild3 {
     margin-top: -50px;
 }
 
-.home-bild div:nth-child(2){
-margin-top: -10%;
-margin-left: -40px;
+.home-bild div:nth-child(2) {
+    margin-top: -5%;
+    margin-left: -40px;
 }
 
-.home-bild div:nth-child(4){
-    margin-top: -40%;
+.home-bild div:nth-child(4) {
+    margin-top: -35%;
     margin-left: -40px;
-    }
+}
 
 
 /* css About Me start */
 
+.about{
+    display: block;
+    justify-content: center;
+}
+.sub-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.about-text p{
+   text-align: center;
+   letter-spacing: 1px;
+   line-height: 1.8;
+}
+.signature img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+/*
 .about {
     position: relative;
     width: 100%;
@@ -223,7 +247,7 @@ margin-left: -40px;
     width: 20%;
     font-weight: 5px;
 }
-
+*/
 /* css About Me ende */
 
 /*-------------------works-------------------*/
