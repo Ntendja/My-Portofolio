@@ -2,12 +2,6 @@
     font-family: "Roboto";
     box-sizing: border-box;
     margin: 10px;
-    padding: 10px;
-}
-
-.container-fluid {
-    width: 100%;
-
 }
 
 /*--------header------*/
@@ -31,7 +25,7 @@
     color: black;
 }
 
-
+/*------------------------------------------*/
 
 
 
